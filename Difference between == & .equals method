@@ -1,0 +1,9 @@
+== operator is used for reference comparison.
+address comparison
+it means == operator checks if both objects point to the same memory location or not
+
+.equals method is used for content comparison (in string class). it means
+.equals() methos is used to check object values.
+
+.equals is method of object class
+

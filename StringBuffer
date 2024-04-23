@@ -1,0 +1,23 @@
+public final class StringBuffer extends AbstractStringBuilder implements java.io.Seralizable, charSequence{
+StringBuffer()
+StringBuffer(charSequence seq)
+StringBuffer(String s)
+StringBuffer(int capacity)
+
+length()
+capacity()
+append()
+insert()
+reverse()
+delete()
+deleteCharAt()
+replace()
+ensureCapacity()
+chatAt()
+indexOf()
+lastIndexOf()
+subString()
+subSequence()
+toString()
+
+}

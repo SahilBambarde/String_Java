@@ -1,0 +1,14 @@
+11 Methods in object class
+
+clone()
+equals(obj o)
+finalize()
+getClass()
+hashCode()
+notify()
+notifyAll()
+toString()
+wait()
+wait(Long timeout)
+wait(Long timeout, int nano)
+

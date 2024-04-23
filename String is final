@@ -1,0 +1,7 @@
+final is the keyword which is used in with class, method and variable
+
+String class has got special features which is not available to other java classes and
+making the string class final prevents subclasses that could break there assumptions
+
+
+

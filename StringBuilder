@@ -1,0 +1,30 @@
+StringBuffer -> mutable , synchronized, low performance
+
+StringBuilder -> 1.5 JDK
+Non Synchronized
+Same as StringBuffer methods and constructors
+mutable objects
+
+------------------------------------------------------------
+
+Difference between String , StringBuffer and StringBuilder
+
+String                              StringBuffer                                StringBuilder
+Heap                             Heap                                          Heap
+SCP
+
+Immutable                           mutable                                     mutable
+
+if we change the value             less memory                                  less memory
+of String a lot of time, it
+will allocate more memory
+
+
+Not ThreadSafe                      ThreadSafe                                      Not ThreadSafe
+
+
+Slow                                Fast                                            Fast
+
+Use: if data is not changing        if data is changing                           if data is changing
+frequently                          freq                                                freq
+

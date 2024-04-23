@@ -1,0 +1,26 @@
+String contact pool (or String literal pool) is an area in heap memory where java String literals values are stored.
+
+JVM Architecture
+Method area
+Heap Area
+Stack Area
+
+String contact pool in Heap Area
+
+String s1 = new String("Sahil"); (SCP)(Heap)
+String s1 = "Mrunmai" (SCP)
+
+the String objects present in SCP are not applicable for garbage collection because
+a reference variable internally is maintained by jvm
+
+---------------------------------------
+
+String s1 = new String("deepak") (SCP)(HEAP)
+String s2 = new String("Sahil") (SCP)(HEAP)
+String s3 = new String("deepak") (HEAP)
+String s4 = "amit" (SCP) //1 object created
+String s5 = "deepak"
+String s5 ="deepak"  refer to SCP
+
+--------------------------------------------
+

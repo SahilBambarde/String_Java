@@ -1,0 +1,23 @@
+String is non primitive data type
+String size is not fixed
+
+String is the sequence of characters
+Array of Characters
+
+char[] c ={'s','a','h'}
+String s = new String(c)
+CharSequence interface
+
+String is a class
+public final class String extends object implements charSequence,serializable, comparable{
+}
+Object is parent class of String
+
+We can create String class object by String s = new String().
+it will create an immutable object.
+
+to create String, there are three classes:
+1. String
+2. StringBuffer
+3. StringBuilder
+

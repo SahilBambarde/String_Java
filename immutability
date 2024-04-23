@@ -1,0 +1,15 @@
+Immutable means Unchangeable
+
+Ummutability concept is used for String objects i.e String objects are immutable.
+it means once String object is created;its data or state cannot be changed but a new string is created
+
+String objects are immutable in java and therefore if a password is stored as plain text
+it will be available in memory until garbage collector clears it, but
+string object are stored in string constant pool for re-usability and garbage
+collection is not applicable in scp,while is a security threat.
+with an array, you can explicit wipe the data after you re done with it
+you can overwrite the array with anything you like and the password wont be present anywhere in the system
+even before garbage collection
+
+
+
